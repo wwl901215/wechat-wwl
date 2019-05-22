@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "惊喜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/personal_home.png",
+        "selectedIconPath": "images/personal_home_on.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/personal_gift.png",
+        "selectedIconPath": "images/personal_gift_on.png",
+        "text": "惊喜"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/personal_my.png",
+        "selectedIconPath": "images/personal_my_on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

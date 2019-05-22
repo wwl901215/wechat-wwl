@@ -1,3 +1,5 @@
-<view>
-
+<view wx:for="{{list}}" wx:for-item="item">
+  <image style='width: 40rpx; height: 40rpx;' mode='aspectFit' src='{{item.img}}'/>
+  <text>{{item.text}}</text>
+  <image style='width: 40rpx; height: 40rpx;' src='../../images/me/h.png' mode='aspectFit'></image>
 </view>

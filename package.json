@@ -1,0 +1,23 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "test lint instrument",
+  "main": "app.js",
+  "scripts": {
+    "test": "aaa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwl901215/wechat-wwl.git"
+  },
+  "keywords": [
+    "miniprogram",
+    "package"
+  ],
+  "author": "wwl901215@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwl901215/wechat-wwl/issues"
+  },
+  "homepage": "https://github.com/wwl901215/wechat-wwl#readme"
+}

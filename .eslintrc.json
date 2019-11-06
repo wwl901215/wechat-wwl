@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "commonjs": true
     },
     "extends": [
         "eslint:recommended",
@@ -10,7 +11,16 @@
     ],
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
+        "App": true,
+        "wx": true,
+        "getApp": true,
+        "Behavior": true,
+        "Componet": true,
+        "Page": true,
+        "__DEV__": true,
+        "__WECHAT__": true,
+        "__ALIPAY__": true
     },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {

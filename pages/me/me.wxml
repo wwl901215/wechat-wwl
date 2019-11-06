@@ -1,5 +1,5 @@
-<view wx:for="{{list}}" wx:for-item="item">
-  <image style='width: 40rpx; height: 40rpx;' mode='aspectFit' src='{{item.img}}'/>
-  <text>{{item.text}}</text>
-  <image style='width: 40rpx; height: 40rpx;' src='../../images/me/h.png' mode='aspectFit'></image>
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index" class="me-v" bindtap="onItemClick" data-type="{{index}}">
+  <image class="me-ic" mode='aspectFit' src='{{item.img}}'/>
+  <text class="me-t">{{item.text}}</text>
+  <image class="me-i-r" src='../../images/me/h.png' mode='aspectFit'></image>
 </view>

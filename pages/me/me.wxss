@@ -1,0 +1,25 @@
+.me-v {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.me-ic {
+    width: 20px;
+    height: 20px;
+}
+
+.me-t {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.me-i-r {
+    width: 20px;
+    height: 20px
+}

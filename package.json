@@ -9,6 +9,11 @@
       "prettier --tab-width 4 --write",
       "eslint --fix",
       "git add"
+    ],
+    "pages/**/*.{js,jsx}": [
+      "prettier --tab-width 4 --write",
+      "eslint --fix",
+      "git add"
     ]
   },
   "repository": {

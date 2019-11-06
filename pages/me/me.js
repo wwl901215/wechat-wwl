@@ -1,13 +1,13 @@
-import * as ReportLog from '../../utils/log';
+import * as ReportLog from "../../utils/log";
 
 Page({
     data: {
         list: []
     },
-    onShow: function () {
-        ReportLog.setFilterMsg("me-page")
+    onShow: function() {
+        ReportLog.setFilterMsg("me-page");
     },
-    onLoad: function () {
+    onLoad: function() {
         this.setData({
             list: [
                 {
@@ -19,35 +19,38 @@ Page({
                     text: "我的订单",
                     type: 1,
                     img: "../../images/me/e.png"
-                }, {
+                },
+                {
                     text: "在线支持",
-                    type: 2, img: "../../images/me/f.png"
-                }, {
+                    type: 2,
+                    img: "../../images/me/f.png"
+                },
+                {
                     text: "设置",
                     type: 3,
                     img: "../../images/me/i.png"
                 }
-            ],
+            ]
         });
     },
-    onItemClick: function (e) {
+    onItemClick: function(e) {
         switch (e.currentTarget.dataset.type) {
             case 0:
-                console.log(0)
-                ReportLog.warn("测试warn")
+                console.log(0);
+                ReportLog.warn("测试warn");
                 break;
             case 1:
-                console.log(1)
-                ReportLog.error("测试error")
+                console.log(1);
+                ReportLog.error("测试error");
                 break;
             case 2:
-                console.log(2)
-                ReportLog.debug("测试debug")
+                console.log(2);
+                ReportLog.debug("测试debug");
                 break;
             case 3:
-                console.log(3)
-                ReportLog.info("测试info")
+                console.log(3);
+                ReportLog.info("测试info");
                 break;
         }
     }
-})
+});

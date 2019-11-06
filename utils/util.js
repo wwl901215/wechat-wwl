@@ -18,9 +18,6 @@ const formatNumber = n => {
     return n[1] ? n : "0" + n;
 };
 
-const aaa = 132;
-
 module.exports = {
-    formatTime: formatTime,
-    aaa
+    formatTime: formatTime
 };

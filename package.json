@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "test lint instrument",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "test:glob": "node ./build/build_glob.js"
+  },
   "lint-staged": {
     "utils/*.{js,jsx}": [
       "prettier --tab-width 4 --write",
@@ -34,6 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^2.6.1",
     "@typescript-eslint/parser": "^2.6.1",
     "eslint": "^6.6.0",
+    "glob": "^7.1.5",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "1.18.2",
